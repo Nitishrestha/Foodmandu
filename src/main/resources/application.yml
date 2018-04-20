@@ -1,0 +1,14 @@
+datasource:
+ driver: com.mysql.jdbc.Driver
+ url: jdbc:mysql://localhost:3306/foodorderingappdb
+ username: root
+ password: root
+ dialect: org.hibernate.dialect.MySQL5Dialect
+
+spring:
+  http:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      file-size-threshold: 1
+
