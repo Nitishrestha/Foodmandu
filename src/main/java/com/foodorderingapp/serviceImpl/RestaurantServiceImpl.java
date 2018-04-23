@@ -117,7 +117,6 @@ public class RestaurantServiceImpl implements RestaurantService {
 
         if (!restaurantFromTable.getRestaurantCode().isEmpty()) {
             if (!file.getName().equalsIgnoreCase("NOIMAGE")) {
-                System.out.println("Hello");
                 requestRestaurant.setFile(file);
                 restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
                 storageService.store(file, requestRestaurant.getRestaurantCode());
