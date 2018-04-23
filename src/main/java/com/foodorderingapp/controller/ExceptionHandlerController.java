@@ -23,7 +23,7 @@ import java.util.List;
 public class ExceptionHandlerController {
 
     @ExceptionHandler(UnauthorizedExceptionHandler.class)
-    public ResponseEntity<ExceptionResponse> unAthorizedException(final UnauthorizedExceptionHandler ex, final HttpServletRequest request) {
+    public ResponseEntity<ExceptionResponse> unAuthorizedException(final UnauthorizedExceptionHandler ex, final HttpServletRequest request) {
         ExceptionResponse error = new ExceptionResponse();
         error.setMessage(ex.getMessage());
         error.setCallerUrl(request.getRequestURI());

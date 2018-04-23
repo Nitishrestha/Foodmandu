@@ -8,6 +8,7 @@ import com.foodorderingapp.exception.UserConflictException;
 import com.foodorderingapp.model.Restaurant;
 import com.foodorderingapp.service.RestaurantService;
 import com.foodorderingapp.service.StorageService;
+import com.foodorderingapp.utils.FileUtil;
 import com.foodorderingapp.utils.RestaurantUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -37,9 +38,13 @@ public class RestaurantServiceImpl implements RestaurantService {
     @Override
     public Restaurant addRestaurantWithImage(MultipartHttpServletRequest request) {
         Restaurant newRestaurant = RestaurantUtil.getRestaurant(request);
+        MultipartFile multipartFile = FileUtil.getFile(request);
+        newRestaurant.setFile(multipartFile);
+        if (multipartFile.getName().equalsIgnoreCase("NOIMAGE")) {
+            newRestaurant.setRestaurantCode(multipartFile.getName());
+        }
         Restaurant restaurant1 = restaurantDAO.addRestaurant(newRestaurant);
-        MultipartFile file = newRestaurant.getFile();
-        storageService.store(file, restaurant1.getRestaurantCode());
+        storageService.store(multipartFile, restaurant1.getRestaurantCode());
         if (restaurant1 == null) {
             throw new DataNotFoundException("Can not add Restaurant!");
         }
@@ -80,17 +85,51 @@ public class RestaurantServiceImpl implements RestaurantService {
 
     @Override
     public Restaurant updateRestaurant(MultipartHttpServletRequest request, int id) {
+        MultipartFile file = FileUtil.getFile(request);
+        Restaurant restaurant = null;
         Restaurant restaurantFromTable = restaurantDAO.getRestaurantById(id);
+
         Restaurant requestRestaurant = RestaurantUtil.getRestaurant(request);
-        Restaurant restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
-        storageService.store(restaurant.getFile(), requestRestaurant.getRestaurantCode());
+
+        if (restaurantFromTable.getRestaurantCode().equalsIgnoreCase("NOIMAGE")) {
+            if (file.getName().equalsIgnoreCase("NOIMAGE")) {
+                requestRestaurant.setRestaurantCode(file.getName());
+                requestRestaurant.setFile(file);
+                restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
+                return restaurant;
+            }
+        }
+
+        if (restaurantFromTable.getRestaurantCode().equalsIgnoreCase("NOIMAGE") && !file.getName().equalsIgnoreCase("NOIMAGE")) {
+            requestRestaurant.setFile(file);
+            storageService.store(file, requestRestaurant.getRestaurantCode());
+            restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
+            return restaurant;
+        }
+        if (!restaurantFromTable.getRestaurantCode().isEmpty()) {
+            if (file.getName().equalsIgnoreCase("NOIMAGE")) {
+                requestRestaurant.setFile(restaurantFromTable.getFile());
+                requestRestaurant.setRestaurantCode(restaurantFromTable.getRestaurantCode());
+                restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
+                return restaurant;
+            }
+        }
+
+        if (!restaurantFromTable.getRestaurantCode().isEmpty()) {
+            if (!file.getName().equalsIgnoreCase("NOIMAGE")) {
+                requestRestaurant.setFile(file);
+                restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
+                storageService.store(file, requestRestaurant.getRestaurantCode());
+                return restaurant;
+            }
+        }
+
         if (restaurantFromTable == null) {
             throw new UserConflictException("cannot update restaurant.");
         }
         restaurantDAO.updateRestaurant(restaurant);
         return requestRestaurant;
     }
-
 
     public List<Restaurant> getAll() {
         List<Restaurant> restaurantList = restaurantDAO.getAll();
