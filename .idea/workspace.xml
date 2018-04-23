@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa6997c-4ee7-4519-bde6-738aacad7a72" name="Default" comment="test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/commons/WebUrlConstant.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/commons/WebUrlConstant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/ExceptionHandlerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/ExceptionHandlerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/RestaurantServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/RestaurantServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/utils/RestaurantUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/utils/RestaurantUtil.java" />
-    </list>
+    <list default="true" id="3aa6997c-4ee7-4519-bde6-738aacad7a72" name="Default" comment="test" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="C:\Users\User\Desktop\workspace xyz\FoodOrderingApp 1\.idea\shelf/" />
@@ -331,7 +325,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="728" />
@@ -921,7 +915,7 @@
       <workItem from="1524200190785" duration="347000" />
       <workItem from="1524204157215" duration="5089000" />
       <workItem from="1524381252228" duration="4343000" />
-      <workItem from="1524461679884" duration="12401000" />
+      <workItem from="1524461679884" duration="12769000" />
     </task>
     <servers />
   </component>
@@ -958,7 +952,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1590774000" />
+    <option name="totallyTimeSpent" value="1591142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -970,7 +964,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="728" extended-state="1" />
+    <frame x="-8" y="0" width="1378" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
