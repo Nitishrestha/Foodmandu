@@ -40,7 +40,7 @@ public class RestaurantServiceImpl implements RestaurantService {
         Restaurant newRestaurant = RestaurantUtil.getRestaurant(request);
         MultipartFile multipartFile = FileUtil.getFile(request);
         newRestaurant.setFile(multipartFile);
-        if (multipartFile.getName() == "NOIMAGE") {
+        if (multipartFile.getName().equalsIgnoreCase("NOIMAGE")) {
             newRestaurant.setRestaurantCode(multipartFile.getName());
         }
         Restaurant restaurant1 = restaurantDAO.addRestaurant(newRestaurant);
@@ -101,7 +101,6 @@ public class RestaurantServiceImpl implements RestaurantService {
         }
 
         if (restaurantFromTable.getRestaurantCode().equalsIgnoreCase("NOIMAGE") && !file.getName().equalsIgnoreCase("NOIMAGE")) {
-            requestRestaurant.setRestaurantCode(file.getName());
             requestRestaurant.setFile(file);
             storageService.store(file, requestRestaurant.getRestaurantCode());
             restaurant = RestaurantUtil.copyRestaurant(restaurantFromTable, requestRestaurant);
