@@ -35,7 +35,7 @@ public class WebUrlConstant {
         String ACTIVATE_RESTAURANT = "/{id}/activate";
         String DEACTIVATE_RESTAURANT = "/{id}/deactivate";
         String GET_PAGINATED_RESTAURANT_TO_ADMIN = "admin/paginate/{firstResult}/{maxResult}";
-        String GET_PAGINATED_RESTAURANT_TO_USER = "user/{id}/paginate/{firstResult}/{maxResult}";
+        String GET_PAGINATED_RESTAURANT_TO_USER = "user/paginate/{firstResult}/{maxResult}";
         String GET_PAGINATED_FOOD = "/{id}/foods/{firstResult}/{maxResult}";
         String GET_RESTAURANT_BY_ID = "/{id}";
         String DELETE_RESTAURANT_BY_ID = "/{id}";
