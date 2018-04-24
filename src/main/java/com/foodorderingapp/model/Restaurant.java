@@ -34,8 +34,6 @@ public class Restaurant implements Serializable {
     @Column(name = "restaurant_id",nullable=false,updatable = false)
     private int id;
 
-    private int id2;
-
     @Column(name = "restaurant_name")
     @NotNull(message = "please enter the restaurant name")
     @Size(min=3,max=25)
@@ -75,14 +73,6 @@ public class Restaurant implements Serializable {
     }
 
     public Restaurant() {
-    }
-
-    public int getId2() {
-        return id2;
-    }
-
-    public void setId2(int id2) {
-        this.id2 = id2;
     }
 
     public boolean isFavorated() {
