@@ -11,16 +11,22 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Created by TOPSHI KREATS on 11/29/2017.
- */
+@SqlResultSetMapping(
+        name="RestaurantMapping",
+        classes =
+                {@ConstructorResult(targetClass = Restaurant.class,
+                        columns = {
+                                @ColumnResult(name="restaurant_id", type=Integer.class),
+                                @ColumnResult(name="restaurant_name", type=String.class),
+                                @ColumnResult(name="restaurant_address",type=String.class),
+                                @ColumnResult(name="restaurant_contact",type=String.class),
+                                @ColumnResult(name="status",type=Boolean.class),
+                                @ColumnResult(name="favorated",type=Boolean.class),
 
+                        })})
 @Entity
 @Table(name = "tbl_restaurant")
-public class Restaurant implements Serializable {
-
-    private static final long serialVersionUID = 1L;
-
+public class Restaurant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "restaurant_id", nullable = false, updatable = false)
@@ -48,8 +54,28 @@ public class Restaurant implements Serializable {
     private String restaurantCode;
 
     @Transient
+    private boolean favorated;
+
+    public Restaurant(int id,String name, String address, String contact, boolean isActive, boolean favorated) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.contact = contact;
+        this.isActive = isActive;
+        this.favorated = favorated;
+    }
+
+    @Transient
     @JsonIgnore
     private MultipartFile file;
+
+    public boolean isFavorated() {
+        return favorated;
+    }
+
+    public void setFavorated(boolean favorated) {
+        this.favorated = favorated;
+    }
 
     @OneToMany(mappedBy = "restaurant", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JsonIgnore

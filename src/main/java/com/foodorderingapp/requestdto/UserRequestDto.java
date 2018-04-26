@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.Size;
+import java.beans.Transient;
 
 public class UserRequestDto {
 
@@ -28,6 +29,16 @@ public class UserRequestDto {
     @NotBlank(message = "This field is required.")
     @Size(min=7,max=10,message = "middle name must be between 2 and 20.")
     private String contactNo;
+
+    private transient double balance;
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 
     public int getUserId() {
         return userId;

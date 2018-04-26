@@ -8,15 +8,15 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "tbl_food")
-public class Food{
+public class Food {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "food_id",nullable=false,updatable = false)
+    @Column(name = "food_id", nullable = false, updatable = false)
     private int id;
-    @Column(name="food_name")
+    @Column(name = "food_name")
     @NotBlank(message = "This field is required.")
-    @Size(min=4,max=15,message = "first name must be between 2 and 20.")
+    @Size(min = 4, max = 15, message = "first name must be between 2 and 20.")
     private String name;
     @Column(name = "food_price")
     private double price;
@@ -27,14 +27,14 @@ public class Food{
 
     private transient int restaurantId;
 
-    public Food(int id,String name, double price, Restaurant restaurant) {
-        this.id=id;
+    public Food(int id, String name, double price, Restaurant restaurant) {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.restaurant = restaurant;
     }
 
-    public Food(){
+    public Food() {
 
     }
 
@@ -63,8 +63,8 @@ public class Food{
     }
 
     public Restaurant getRestaurant() {
-        if(this.restaurant==null){
-            this.restaurant=new Restaurant();
+        if (this.restaurant == null) {
+            this.restaurant = new Restaurant();
         }
         return restaurant;
     }
@@ -75,10 +75,10 @@ public class Food{
     }
 
     public int getRestaurantId() {
-      if(restaurantId==0){
-          return this.getRestaurant().getId();
-      }
-      return restaurantId;
+        if (restaurantId == 0) {
+            return this.getRestaurant().getId();
+        }
+        return restaurantId;
     }
 
     public void setRestaurantId(int restaurantId) {
@@ -92,7 +92,11 @@ public class Food{
 
         Food food = (Food) o;
 
-        return id == food.id;
+        if (id != food.id) return false;
+        if (Double.compare(food.price, price) != 0) return false;
+        if (restaurantId != food.restaurantId) return false;
+        if (!name.equals(food.name)) return false;
+        return restaurant.equals(food.restaurant);
     }
 
     @Override
