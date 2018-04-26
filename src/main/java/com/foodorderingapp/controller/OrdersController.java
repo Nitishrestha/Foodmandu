@@ -2,7 +2,7 @@ package com.foodorderingapp.controller;
 
 import com.foodorderingapp.requestdto.*;
 import com.foodorderingapp.model.Orders;
-import com.foodorderingapp.responsedto.BillResponseDto;
+import com.foodorderingapp.responsedto.OrderResponseDto;
 import com.foodorderingapp.responsedto.OrderListResponseDto;
 import com.foodorderingapp.responsedto.UserListResponseDto;
 import com.foodorderingapp.service.OrdersService;
@@ -28,12 +28,12 @@ public class OrdersController {
     }
 
     @PostMapping
-    public ResponseEntity<BillResponseDto> addOrder(@RequestBody @Valid OrderRequestDto orderRequestDto) {
-        BillResponseDto billResponseDto = ordersService.add(orderRequestDto);
-        if(billResponseDto ==null){
+    public ResponseEntity<OrderResponseDto> addOrder(@RequestBody @Valid OrderRequestDto orderRequestDto) {
+        OrderResponseDto orderResponseDto = ordersService.add(orderRequestDto);
+        if(orderResponseDto ==null){
             return new ResponseEntity(HttpStatus.NOT_FOUND);
         }
-        return new ResponseEntity(billResponseDto,HttpStatus.OK);
+        return new ResponseEntity(orderResponseDto,HttpStatus.OK);
     }
 
     @GetMapping(TODAY_ORDER_TO_ADMIN)

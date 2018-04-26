@@ -44,25 +44,19 @@ public class UserController {
 
     @PostMapping(VERIFY_USER)
     public ResponseEntity<LoginRequestDto> verifyUser(@RequestBody @Valid LoginRequestDto loginRequestDto) {
-        LoginRequestDto loginRequestDto1 = userService.verifyUser(loginRequestDto.getUserPassword(), loginRequestDto.getEmail());
-        if(loginRequestDto1 ==null){
+        UserResponseDto userResponseDto =userService.verifyUser(loginRequestDto.getUserPassword(), loginRequestDto.getEmail());
+        if(userResponseDto ==null){
             return new ResponseEntity(HttpStatus.NOT_FOUND);
         }
-        return new ResponseEntity(loginRequestDto1, HttpStatus.OK);
+        return new ResponseEntity(userResponseDto, HttpStatus.OK);
     }
 
     @GetMapping(GET_USER_BY_ID)
     public ResponseEntity<User> getUser(@PathVariable int userId) {
-        User user = userService.getUser(userId);
+        UserResponseDto user = userService.getUser(userId);
         if(user==null){
             return new ResponseEntity(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity(user, HttpStatus.OK);
-    }
-
-    @DeleteMapping(value="/deleteall")
-    public ResponseEntity<String> deleteAllUser() {
-        userService.deleteAll();
-        return new ResponseEntity("all record are deleted", HttpStatus.OK);
     }
 }

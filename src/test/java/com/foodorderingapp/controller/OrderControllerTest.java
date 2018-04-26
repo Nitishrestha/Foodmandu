@@ -6,7 +6,7 @@ import com.foodorderingapp.Application;
 import com.foodorderingapp.requestdto.*;
 import com.foodorderingapp.model.Food;
 import com.foodorderingapp.model.Orders;
-import com.foodorderingapp.responsedto.BillResponseDto;
+import com.foodorderingapp.responsedto.OrderResponseDto;
 import com.foodorderingapp.responsedto.OrderListResponseDto;
 import com.foodorderingapp.responsedto.UserListResponseDto;
 import com.foodorderingapp.service.OrdersService;
@@ -60,14 +60,14 @@ public class OrderControllerTest {
 
         ObjectMapper mapper = new ObjectMapper();
         String jsonString = mapper.writeValueAsString(orderRequestDto);
-        given(ordersService.add(orderRequestDto)).willReturn(new BillResponseDto(1,Arrays.asList(new Food())));
+        given(ordersService.add(orderRequestDto)).willReturn(new OrderResponseDto(1,Arrays.asList(new Food())));
         RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/order")
                 .accept(MediaType.APPLICATION_JSON).content(jsonString).contentType(MediaType.APPLICATION_JSON);
         MvcResult result = mvc.perform(requestBuilder).andReturn();
         MockHttpServletResponse response = result.getResponse();
         String outputInJson = response.getContentAsString();
-        BillResponseDto returnedBillResponseDto = mapper.readValue(outputInJson, BillResponseDto.class);
-        assertThat(returnedBillResponseDto).isNotNull();
+        OrderResponseDto returnedOrderResponseDto = mapper.readValue(outputInJson, OrderResponseDto.class);
+        assertThat(returnedOrderResponseDto).isNotNull();
         Assert.assertEquals(HttpStatus.OK.value(), response.getStatus());
     }
 

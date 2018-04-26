@@ -4,7 +4,7 @@ import com.foodorderingapp.model.Food;
 
 import java.util.List;
 
-public class BillResponseDto {
+public class OrderResponseDto {
 
     private double balance;
     private List<Food> foodList;
@@ -25,12 +25,12 @@ public class BillResponseDto {
         this.foodList = foodList;
     }
 
-    public BillResponseDto(double balance, List<Food> foodList) {
+    public OrderResponseDto(double balance, List<Food> foodList) {
         this.balance = balance;
         this.foodList = foodList;
     }
 
-    public BillResponseDto(){
+    public OrderResponseDto(){
 
     }
 
@@ -39,9 +39,9 @@ public class BillResponseDto {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        BillResponseDto billResponseDto = (BillResponseDto) o;
+        OrderResponseDto orderResponseDto = (OrderResponseDto) o;
 
-        return Double.compare(billResponseDto.balance, balance) == 0;
+        return Double.compare(orderResponseDto.balance, balance) == 0;
     }
 
     @Override

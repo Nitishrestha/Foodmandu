@@ -9,47 +9,43 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-
-@Table(name = "tbl_users")
+@Table(name="tbl_users")
 @SqlResultSetMapping(
-        name = "UserMapping",
+        name="UserMapping",
         classes =
                 {@ConstructorResult(targetClass = UserListMapperDto.class,
                         columns = {
-                                @ColumnResult(name = "order_id", type = Integer.class),
-                                @ColumnResult(name = "user_id", type = Integer.class),
-                                @ColumnResult(name = "ordered_date", type = Date.class),
-                                @ColumnResult(name = "confirm", type = Boolean.class)
+                                @ColumnResult(name="order_id", type=Integer.class),
+                                @ColumnResult(name="user_id", type=Integer.class),
+                                @ColumnResult(name="ordered_date",type=Date.class),
+                                @ColumnResult(name="confirm",type=Boolean.class)
                         })})
 
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "user_id", nullable = false, updatable = false)
+    @Column(name="user_id")
     private int userId;
     @NotNull(message = "Can't be null.")
-    @Column(name = "first_name")
+    @Column(name="first_name")
     private String firstName;
-    @Column(name = "middle_name")
+    @Column(name="middle_name")
     private String middleName;
-    @Column(name = "last_name")
+    @Column(name="last_name")
     private String lastName;
-    @Column(name = "user_password")
+    @Column(name="user_password")
     private String userPassword;
-    @Column(name = "email")
+    @Column(name="email")
     private String email;
-    @Column(name = "contact_no")
+    @Column(name="contact_no")
     private String contactNo;
-    @Column(name = "address")
+    @Column(name="address")
     private String address;
-    @Column(name = "user_role")
-    private String userRole = "user";
-    @Column(name = "balance")
-    private double balance = 1200;
-
-    @OneToMany(mappedBy = "user", cascade = CascadeType.REMOVE, orphanRemoval = true, fetch = FetchType.LAZY)
-    private List<Orders> ordersList;
+    @Column(name="user_role")
+    private String userRole="user";
+    @Column(name="balance")
+    private double balance=1200;
 
     public User(String firstName, String middleName, String lastName, String userPassword,
                 String email, String contactNo, String address, String userRole, double balance) {
@@ -64,16 +60,8 @@ public class User {
         this.balance = balance;
     }
 
-    public User() {
+    public User(){
 
-    }
-
-    public List<Orders> getOrdersList() {
-        return ordersList;
-    }
-
-    public void setOrdersList(List<Orders> ordersList) {
-        this.ordersList = ordersList;
     }
 
     public int getUserId() {
@@ -163,11 +151,11 @@ public class User {
 
         User user = (User) o;
 
-        return email != null ? email.equals(user.email) : user.email == null;
+        return firstName != null ? firstName.equals(user.firstName) : user.firstName == null;
     }
 
     @Override
     public int hashCode() {
-        return email != null ? email.hashCode() : 0;
+        return firstName != null ? firstName.hashCode() : 0;
     }
 }

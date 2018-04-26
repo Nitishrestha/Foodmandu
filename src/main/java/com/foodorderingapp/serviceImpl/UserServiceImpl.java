@@ -5,7 +5,7 @@ import com.foodorderingapp.requestdto.LoginRequestDto;
 import com.foodorderingapp.requestdto.UserRequestDto;
 import com.foodorderingapp.responsedto.UserListMapperDto;
 import com.foodorderingapp.exception.DataNotFoundException;
-import com.foodorderingapp.exception.UserConflictException;
+import com.foodorderingapp.exception.DataConflictException;
 import com.foodorderingapp.model.User;
 import com.foodorderingapp.responsedto.UserResponseDto;
 import com.foodorderingapp.service.UserService;
@@ -49,7 +49,7 @@ public class UserServiceImpl implements UserService {
             return userResponseDto;
 
         } else {
-            throw new UserConflictException("user already exit.");
+            throw new DataConflictException("user already exit.");
         }
     }
 
@@ -69,35 +69,43 @@ public class UserServiceImpl implements UserService {
         }
     }
 
-    public LoginRequestDto verifyUser(String userPassword, String email) {
-
+    @Override
+    public UserResponseDto verifyUser(String userPassword, String email) {
         User user = userDAO.getUserByEmailId(email);
         if (user == null) {
-            throw new DataNotFoundException("email not found.");
+            throw new RuntimeException("email not found.");
         } else if (passwordEncoder.matches(userPassword, user.getUserPassword())) {
-            LoginRequestDto loginRequestDto = new LoginRequestDto();
-            BeanUtils.copyProperties(user, loginRequestDto);
-            System.out.println(loginRequestDto);
-            return loginRequestDto;
+            UserResponseDto userResponseDto = new UserResponseDto();
+            BeanUtils.copyProperties(user, userResponseDto);
+            return userResponseDto;
         } else {
-            throw new UserConflictException("userpassword didnt match.");
+            throw new RuntimeException("userpassword didnt match.");
         }
     }
 
-    public User getUser(int userId) {
-        User user= userDAO.getUser(userId);
+    @Override
+    public UserResponseDto getUser(int userId) {
+        UserResponseDto userResponseDto = new UserResponseDto();
+        User user=userDAO.getUser(userId);
         if(user==null){
-            throw new DataNotFoundException("user not found.");
+            throw new DataNotFoundException("cannot find user.");
         }
-        return user;
+        BeanUtils.copyProperties(user, userResponseDto);
+        return userResponseDto;
     }
 
-    public User update(User user) {
-        if(userDAO.update(user)==true) {
-            return user;
-        }else{
-            throw new UserConflictException("cannot update user.");
-        }
+    public UserResponseDto update(UserRequestDto userRequestDto) {
+        UserResponseDto userResponseDto=new UserResponseDto();
+        getUserRequestDto(userRequestDto);
+        BeanUtils.copyProperties(userRequestDto,userResponseDto);
+        return userResponseDto;
+
+    }
+
+    public void getUserRequestDto(UserRequestDto userRequestDto){
+        User user=new User();
+        BeanUtils.copyProperties(userRequestDto,user);
+        userDAO.update(user);
     }
 
     @Override
@@ -112,10 +120,5 @@ public class UserServiceImpl implements UserService {
 
     public void updateBalance(){
         userDAO.updateBalance();
-    }
-
-    @Override
-    public boolean deleteAll() {
-        return userDAO.deleteAll();
     }
 }

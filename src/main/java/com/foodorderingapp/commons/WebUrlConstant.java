@@ -41,4 +41,21 @@ public class WebUrlConstant {
         String DELETE_RESTAURANT_BY_ID = "/{id}";
         String UPDATE_RESTAURANT_BY_ID = "/{id}";
     }
+
+
+    public interface Review{
+        String REVIEW="/review";
+        String ADD_REVIEW="/users/{userId}/reviews/{restaurantId}";
+        String DELETE_REVIEW="/users/{userId}/reviews/{restaurantId}";
+        String GET_REVIEW_BY_USERID="/users/{userId}/reviews/{restaurantId}";
+        String GET_ALL_REVIEWS_BY_USERID="/users/{userId}/reviews";
+    }
+
+    public interface Favorite{
+        String FAVORITE="/favorite";
+        String ADD_FAVORITE="/users/{userId}/favorites/{restaurantId}";
+        String GET_FAVORITE="/users/{userId}/favorites";
+        String DELETE_FAVORITES="/users/{userId}/favorites/{restaurantId}";
+        String GET_FAVORITES_USER_BY_RESTAURANTID="/users/favorites/{restaurantId}";
+    }
 }
