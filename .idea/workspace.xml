@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FoodOrderingApp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3aa6997c-4ee7-4519-bde6-738aacad7a72" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_ehcache_5_2_7_Final.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp.rar" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/foodorderingapp.rar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FoodOrderingApp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FoodOrderingApp_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FoodOrderingApp.iml" afterPath="$PROJECT_DIR$/FoodOrderingApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/config/HibernateConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/config/HibernateConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/OrderDetailDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/OrderDetailDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/RestaurantDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/RestaurantDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Favorite.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Favorite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Restaurant.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Restaurant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/OrdersServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/OrdersServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/FoodControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/FoodControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/OrderControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/OrderControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/OrderDetailControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/OrderDetailControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/RestaurantControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/RestaurantControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/UserControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/UserControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/FoodDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/FoodDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDetailDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDetailDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/RestaurantDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/RestaurantDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/UserDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/UserDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/FoodServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/FoodServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderDetailServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderDetailServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/RestaurantServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/RestaurantServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/UserServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/UserServiceTest.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserControllerTest.coverage" NAME="UserControllerTest Coverage Results" MODIFIED="1524401400030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserServiceTest.coverage" NAME="UserServiceTest Coverage Results" MODIFIED="1524637236307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$RestaurantServiceTest.coverage" NAME="RestaurantServiceTest Coverage Results" MODIFIED="1523423485530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$Application.coverage" NAME="Application Coverage Results" MODIFIED="1523946377819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderServiceTest_testShouldThrowDataNotFoundExceptionWhenFoodIsNotEqualToDatabaseFoodName.coverage" NAME="OrderServiceTest.testShouldThrowDataNotFoundExceptionWhenFoodIsNotEqualToDatabaseFoodName Coverage Results" MODIFIED="1519198207668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderDetailServiceTest.coverage" NAME="OrderDetailServiceTest Coverage Results" MODIFIED="1523423423934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$All_in_FoodOrderingApp__2_.coverage" NAME="All in FoodOrderingApp (2) Coverage Results" MODIFIED="1524651654240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderDetailControllerTest.coverage" NAME="OrderDetailControllerTest Coverage Results" MODIFIED="1524632123441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$RestaurantControllerTest.coverage" NAME="RestaurantControllerTest Coverage Results" MODIFIED="1524632456388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserControllerTest_addUser_whenAdded_thenReturnUser.coverage" NAME="UserControllerTest.addUser_whenAdded_thenReturnUser Coverage Results" MODIFIED="1519372623659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderServiceTest_getOrderForAdminForMonth_whenGetOrderListMapperDtoListThenReturnNull_thenReturnDataNotFoundException.coverage" NAME="OrderServiceTest.getOrderForAdminForMonth_whenGetOrderListMapperDtoListThenReturnNull_thenReturnDataNotFoundException Coverage Results" MODIFIED="1523423577539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserControllerTest_getUser.coverage" NAME="UserControllerTest.getUser Coverage Results" MODIFIED="1524405780189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$All_in_FoodOrderingApp__3_.coverage" NAME="All in FoodOrderingApp (3) Coverage Results" MODIFIED="1524652370822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$FoodDaoTest.coverage" NAME="FoodDaoTest Coverage Results" MODIFIED="1523439777337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$com_foodorderingapp_service_in_FoodOrderingApp.coverage" NAME="com.foodorderingapp.service in FoodOrderingApp Coverage Results" MODIFIED="1524639197747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$com_foodorderingapp_dao_in_FoodOrderingApp.coverage" NAME="com.foodorderingapp.dao in FoodOrderingApp Coverage Results" MODIFIED="1524639205047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$FoodFailTest.coverage" NAME="FoodFailTest Coverage Results" MODIFIED="1519191645118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderFailTest_getByUserId.coverage" NAME="OrderFailTest.getByUserId Coverage Results" MODIFIED="1518680201970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$All_in_FoodOrderingApp__5_.coverage" NAME="All in FoodOrderingApp (5) Coverage Results" MODIFIED="1524652769627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$com_foodorderingapp_test_in_FoodOrderingApp.coverage" NAME="com.foodorderingapp.test in FoodOrderingApp Coverage Results" MODIFIED="1519458421543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderControllerTest.coverage" NAME="OrderControllerTest Coverage Results" MODIFIED="1523423640605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$RestaurantDaoTest.coverage" NAME="RestaurantDaoTest Coverage Results" MODIFIED="1524634729882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$FoodServiceTest.coverage" NAME="FoodServiceTest Coverage Results" MODIFIED="1523423417917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderDaoTest.coverage" NAME="OrderDaoTest Coverage Results" MODIFIED="1522909358637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$All_in_FoodOrderingApp.coverage" NAME="All in FoodOrderingApp Coverage Results" MODIFIED="1524652871900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderServiceTest_testToUpdateOrder.coverage" NAME="OrderServiceTest.testToUpdateOrder Coverage Results" MODIFIED="1521793860983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$All_in_FoodOrderingApp__1_.coverage" NAME="All in FoodOrderingApp (1) Coverage Results" MODIFIED="1524653269908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderServiceTest.coverage" NAME="OrderServiceTest Coverage Results" MODIFIED="1523423603868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$All_in_FoodOrderingApp__4_.coverage" NAME="All in FoodOrderingApp (4) Coverage Results" MODIFIED="1524652638091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserDaoTest_addUser_whenAddedReturnNull_thenResultUserNotFoundException.coverage" NAME="UserDaoTest.addUser_whenAddedReturnNull_thenResultUserNotFoundException Coverage Results" MODIFIED="1523508973741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserDaoTest.coverage" NAME="UserDaoTest Coverage Results" MODIFIED="1523509527683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$FoodControllerTest.coverage" NAME="FoodControllerTest Coverage Results" MODIFIED="1524639071034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$UserControllerTest_addUser_whenAdded_thenReturnJsonObject.coverage" NAME="UserControllerTest.addUser_whenAdded_thenReturnJsonObject Coverage Results" MODIFIED="1519317877363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$OrderServiceTest_getOrderForAdminForMonth_thenResult_OrderListDto.coverage" NAME="OrderServiceTest.getOrderForAdminForMonth_thenResult_OrderListDto Coverage Results" MODIFIED="1521706991082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FoodOrderingApp$com_foodorderingapp_controller_in_FoodOrderingApp.coverage" NAME="com.foodorderingapp.controller in FoodOrderingApp Coverage Results" MODIFIED="1524639232106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.foodorderingapp.controller.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/UserServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/FoodDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoodControllerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/FoodControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestaurantDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/RestaurantDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2890">
+              <caret line="184" column="47" lean-forward="false" selection-start-line="184" selection-start-column="47" selection-end-line="184" selection-end-column="47" />
+              <folding>
+                <marker date="1524652738435" expanded="true" signature="2587:2777" ph="select R.*, tbl_restaurant" />
+                <marker date="1524652738435" expanded="true" signature="2587:2803" ph="select R.*, tbl_restaurant" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/config/HibernateConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Restaurant.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Restaurant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getOrderDetailByOrderId</find>
+      <find>cron</find>
+      <find>or</find>
+      <find>Could not delete</find>
+      <find>user/{userId}/paginate/{firstResult}/{maxResult}</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/ReviewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/utils/ReviewUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/responsedto/ReviewResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/service/FavoriteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/FavoriteDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/FavoriteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/service/OrdersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/utils/FoodQuantityUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/FoodQuantityRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/OrderLogDto1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/UserRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/utils/OrderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/FoodServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/FavoriteRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/FavoriteController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/responsedto/FavoriteResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/ReviewRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/RestaurantDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/service/RestaurantService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/RestaurantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/RestaurantController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/responsedto/UserResponseDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/LoginRequestDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/OrderControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/RestaurantControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Favorite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/RestaurantDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/OrderDetailDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDetailDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/OrdersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/RestaurantServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/commons/WebUrlConstant.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/FoodDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/foodorderingapp/foodorderingapp/controller/FoodControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/foodorderingapp/controller/FoodControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/FoodControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/RestaurantDAOImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/foodorderingapp/config/HibernateConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FoodOrderingApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FoodOrderingApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="daoImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodOrderingApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="daoImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="errormessage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="requestdto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="responsedto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FoodOrderingApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="FoodOrderingApp" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="foodorderingapp" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FoodOrderingApps" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/hello/IdeaProjects/FoodOrderingApp/src/main/java/com/foodorderingapp/dao/OrderDetailDAO.java" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\test\resources" />
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.foodorderingapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.foodorderingapp.responsedto" />
+      <recent name="com.foodorderingapp.requestdto" />
+      <recent name="com.foodorderingapp.errormessage" />
+      <recent name="com.foodorderingapp.model" />
+      <recent name="com.foodorderingapp.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\main\java\com\foodorderingapp\serviceImpl" />
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\main\java\com\foodorderingapp\service" />
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\main\java\com\foodorderingapp\daoImpl" />
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\main\java\com\foodorderingapp\dao" />
+      <recent name="C:\Users\hello\IdeaProjects\FoodOrderingApp\src\main\java\com\foodorderingapp\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in FoodOrderingApp (1)">
+    <configuration name="All in FoodOrderingApp (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FoodOrderingApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="All in FoodOrderingApp (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FoodOrderingApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="All in FoodOrderingApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="FoodOrderingApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foodorderingapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.foodorderingapp.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="FoodOrderingApp" />
+      <envs />
+    </configuration>
+    <configuration name="FoodDaoTest.addFoodsToRestaurant_whenAdded_thenReturnOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foodorderingapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FoodOrderingApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.foodorderingapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.foodorderingapp.dao.FoodDaoTest" />
+      <option name="METHOD_NAME" value="addFoodsToRestaurant_whenAdded_thenReturnOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="OrderDaoTest.addOrder_whenAdded_thenReturnOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.foodorderingapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FoodOrderingApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.foodorderingapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.foodorderingapp.dao.OrderDaoTest" />
+      <option name="METHOD_NAME" value="addOrder_whenAdded_thenReturnOK" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="FoodOrderingApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_FoodOrderingApp_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50686" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FoodOrderingApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in FoodOrderingApp (5)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in FoodOrderingApp" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FoodDaoTest.addFoodsToRestaurant_whenAdded_thenReturnOK" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.OrderDaoTest.addOrder_whenAdded_thenReturnOK" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.All in FoodOrderingApp (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in FoodOrderingApp (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrderDaoTest.addOrder_whenAdded_thenReturnOK" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FoodDaoTest.addFoodsToRestaurant_whenAdded_thenReturnOK" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in FoodOrderingApp" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in FoodOrderingApp (5)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3aa6997c-4ee7-4519-bde6-738aacad7a72" name="Default" comment="" />
+      <created>1512973857872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512973857872</updated>
+      <workItem from="1512973870451" duration="24050000" />
+      <workItem from="1513052638538" duration="19743000" />
+      <workItem from="1513139166408" duration="21828000" />
+      <workItem from="1513167941358" duration="210000" />
+      <workItem from="1513214868899" duration="137000" />
+      <workItem from="1513215119478" duration="4834000" />
+      <workItem from="1513225738998" duration="6302000" />
+      <workItem from="1513312946915" duration="19480000" />
+      <workItem from="1513437709149" duration="12885000" />
+      <workItem from="1513563457240" duration="1679000" />
+      <workItem from="1513571505434" duration="18975000" />
+      <workItem from="1513635193586" duration="25616000" />
+      <workItem from="1513743938778" duration="18765000" />
+      <workItem from="1513821138480" duration="3280000" />
+      <workItem from="1513830037718" duration="17318000" />
+      <workItem from="1513917155554" duration="17110000" />
+      <workItem from="1514030842294" duration="630000" />
+      <workItem from="1514089532989" duration="18529000" />
+      <workItem from="1514173918197" duration="44716000" />
+      <workItem from="1514372603835" duration="7749000" />
+      <workItem from="1514435288679" duration="1573000" />
+      <workItem from="1515041440299" duration="12089000" />
+      <workItem from="1515125813192" duration="7089000" />
+      <workItem from="1515394685614" duration="5171000" />
+      <workItem from="1515558451602" duration="24253000" />
+      <workItem from="1515645004977" duration="28914000" />
+      <workItem from="1515731150524" duration="884000" />
+      <workItem from="1515991129255" duration="3806000" />
+      <workItem from="1515995794040" duration="37644000" />
+      <workItem from="1516184231130" duration="2637000" />
+      <workItem from="1516341363778" duration="10222000" />
+      <workItem from="1516459504557" duration="15190000" />
+      <workItem from="1516548603650" duration="3793000" />
+      <workItem from="1516595551665" duration="4637000" />
+      <workItem from="1516685179260" duration="3364000" />
+      <workItem from="1516700660757" duration="10796000" />
+      <workItem from="1516721519233" duration="2448000" />
+      <workItem from="1516768957137" duration="19940000" />
+      <workItem from="1516855242750" duration="32649000" />
+      <workItem from="1517115046428" duration="3860000" />
+      <workItem from="1517128869794" duration="12093000" />
+      <workItem from="1517155598189" duration="1423000" />
+      <workItem from="1517192408731" duration="1774000" />
+      <workItem from="1517220760836" duration="7326000" />
+      <workItem from="1517285905886" duration="16040000" />
+      <workItem from="1517372662968" duration="5459000" />
+      <workItem from="1517383565825" duration="9876000" />
+      <workItem from="1517448203151" duration="2500000" />
+      <workItem from="1517459625404" duration="15002000" />
+      <workItem from="1517546277410" duration="10742000" />
+      <workItem from="1517663688561" duration="8212000" />
+      <workItem from="1517718958441" duration="4944000" />
+      <workItem from="1517726054170" duration="8627000" />
+      <workItem from="1517805150490" duration="2698000" />
+      <workItem from="1517914467153" duration="5000" />
+      <workItem from="1518069145964" duration="3090000" />
+      <workItem from="1518169008055" duration="9596000" />
+      <workItem from="1518313884241" duration="8904000" />
+      <workItem from="1518608609284" duration="19636000" />
+      <workItem from="1518760200001" duration="625000" />
+      <workItem from="1518928176524" duration="1074000" />
+      <workItem from="1518939239623" duration="2173000" />
+      <workItem from="1518953071907" duration="3092000" />
+      <workItem from="1519017233129" duration="18168000" />
+      <workItem from="1519188199699" duration="48104000" />
+      <workItem from="1519316681624" duration="62752000" />
+      <workItem from="1519619948580" duration="19335000" />
+      <workItem from="1519708996666" duration="39887000" />
+      <workItem from="1519948408209" duration="32247000" />
+      <workItem from="1520090010489" duration="15593000" />
+      <workItem from="1520141299735" duration="22107000" />
+      <workItem from="1520223840135" duration="18022000" />
+      <workItem from="1520262504108" duration="12661000" />
+      <workItem from="1520304396519" duration="672000" />
+      <workItem from="1520311272835" duration="16186000" />
+      <workItem from="1520387524500" duration="28991000" />
+      <workItem from="1520470432940" duration="7178000" />
+      <workItem from="1520482957343" duration="54623000" />
+      <workItem from="1520742296079" duration="27371000" />
+      <workItem from="1520782829702" duration="26997000" />
+      <workItem from="1520870316522" duration="40904000" />
+      <workItem from="1521081060399" duration="1333000" />
+      <workItem from="1521088362752" duration="1555000" />
+      <workItem from="1521106226011" duration="5384000" />
+      <workItem from="1521193093450" duration="2841000" />
+      <workItem from="1521296344763" duration="12275000" />
+      <workItem from="1521368558693" duration="592000" />
+      <workItem from="1521373811025" duration="66000" />
+      <workItem from="1521392424457" duration="22000" />
+      <workItem from="1521699611914" duration="17864000" />
+      <workItem from="1521781535312" duration="18882000" />
+      <workItem from="1521951487519" duration="80000" />
+      <workItem from="1521954224589" duration="824000" />
+      <workItem from="1521970888116" duration="51000" />
+      <workItem from="1522020406930" duration="325000" />
+      <workItem from="1522044382702" duration="22750000" />
+      <workItem from="1522124484546" duration="18277000" />
+      <workItem from="1522211408568" duration="39706000" />
+      <workItem from="1522386969875" duration="20497000" />
+      <workItem from="1522558295070" duration="1973000" />
+      <workItem from="1522574791635" duration="1823000" />
+      <workItem from="1522643788047" duration="26000" />
+      <workItem from="1522653625647" duration="337000" />
+      <workItem from="1522737354373" duration="1045000" />
+      <workItem from="1522742782971" duration="7673000" />
+      <workItem from="1522818757174" duration="21357000" />
+      <workItem from="1522893324967" duration="3792000" />
+      <workItem from="1522901545324" duration="22668000" />
+      <workItem from="1522988768651" duration="23009000" />
+      <workItem from="1523262362464" duration="3481000" />
+      <workItem from="1523336048832" duration="62000" />
+      <workItem from="1523352654054" duration="8416000" />
+      <workItem from="1523413767584" duration="24045000" />
+      <workItem from="1523507419685" duration="4978000" />
+      <workItem from="1523596968964" duration="7567000" />
+      <workItem from="1523608316706" duration="2410000" />
+      <workItem from="1523618252807" duration="10137000" />
+      <workItem from="1523774201639" duration="2657000" />
+      <workItem from="1523938588032" duration="22416000" />
+      <workItem from="1524019163019" duration="1106000" />
+      <workItem from="1524025713441" duration="4408000" />
+      <workItem from="1524128872227" duration="7508000" />
+      <workItem from="1524198307320" duration="19731000" />
+      <workItem from="1524400056223" duration="7682000" />
+      <workItem from="1524543828521" duration="5675000" />
+      <workItem from="1524631815455" duration="14549000" />
+      <workItem from="1524717476595" duration="1619000" />
+      <workItem from="1524721414445" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_FoodOrderingApp - 2018.04.25 at 16h 26m 37s.xml">
+      <configuration name="All in FoodOrderingApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(1) - 2018.04.25 at 16h 03m 17s.xml">
+      <configuration name="All in FoodOrderingApp (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(1) - 2018.04.25 at 16h 33m 25s.xml">
+      <configuration name="All in FoodOrderingApp (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(2) - 2018.04.25 at 16h 06m 29s.xml">
+      <configuration name="All in FoodOrderingApp (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(3) - 2018.04.25 at 16h 18m 33s.xml">
+      <configuration name="All in FoodOrderingApp (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(4) - 2018.04.25 at 16h 22m 53s.xml">
+      <configuration name="All in FoodOrderingApp (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(5) - 2018.04.25 at 16h 25m 01s.xml">
+      <configuration name="All in FoodOrderingApp (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FoodOrderingApp_(5) - 2018.04.25 at 16h 26m 02s.xml">
+      <configuration name="All in FoodOrderingApp (5)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FoodDaoTest_addFoodsToRestaurant_whenAdded_thenReturnOK - 2018.04.25 at 16h 27m 05s.xml">
+      <configuration name="FoodDaoTest.addFoodsToRestaurant_whenAdded_thenReturnOK" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderDaoTest_addOrder_whenAdded_thenReturnOK - 2018.04.25 at 16h 31m 27s.xml">
+      <configuration name="OrderDaoTest.addOrder_whenAdded_thenReturnOK" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1572532000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36824876" sideWeight="0.5151745" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.49086162" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0052950075" sideWeight="0.40266666" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2569558" sideWeight="0.51062214" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37315875" sideWeight="0.48937786" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35188216" sideWeight="0.49707174" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22314675" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5091384" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/test/OrderFailTest.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/test/OrderFailTest.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/ExceptionHandlerController.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/ExceptionHandlerController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/UserDaoImpl.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="586" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/ReviewServiceImpl.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/ReviewController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/ReviewDAOImpl.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/OrdersController.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/UserControllerTest.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/UserControllerTest.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/UserController.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/UserDaoImpl.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="626" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDetailDaoTest.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="627" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/OrderDetailDaoImpl.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="628" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/UserServiceImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/FoodDAOImpl.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="639" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="640" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="food.restaurant" />
+        <watch expression="user" />
+      </configuration>
+      <configuration name="JUnit">
+        <watch expression="((InvocationTargetException)e).suppressedExceptions" custom="java.lang.reflect.InvocationTargetException" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/RestaurantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.7.Final/hibernate-core-5.2.7.Final.jar!/org/hibernate/cfg/AvailableSettings.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="159" column="49" lean-forward="false" selection-start-line="159" selection-start-column="40" selection-end-line="159" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/UserRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="13" column="127" lean-forward="false" selection-start-line="13" selection-start-column="127" selection-end-line="13" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/responsedto/UserResponseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="94" lean-forward="false" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="131" column="44" lean-forward="false" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/LoginRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/OrderControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/RestaurantDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/RestaurantControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="125" column="67" lean-forward="true" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/FavoriteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Favorite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/RestaurantDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="72" column="51" lean-forward="true" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/OrderDetailDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/OrderDetailDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <marker date="1524635403221" expanded="true" signature="1310:1875" ph="SELECT tbl_u... tbl_order_detail" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDetailDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="91" column="46" lean-forward="true" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/utils/OrderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/OrderRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/requestdto/FoodQuantityRequestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/rules/ExpectedException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/OrdersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+          <folding>
+            <marker date="1524638455752" expanded="true" signature="2564:3107" ph="SELECT tbl_o... tbl_orders" />
+            <marker date="1524638455752" expanded="true" signature="3595:4065" ph="SELECT tbl_o... tbl_orders" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="105" column="33" lean-forward="false" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/commons/WebUrlConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/dao/FoodDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="32" lean-forward="true" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/FoodDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/FoodServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderDetailServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/OrderServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/RestaurantServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="141" column="34" lean-forward="true" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/controller/FoodControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/serviceImpl/RestaurantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/daoImpl/RestaurantDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2890">
+          <caret line="184" column="47" lean-forward="false" selection-start-line="184" selection-start-column="47" selection-end-line="184" selection-end-column="47" />
+          <folding>
+            <marker date="1524652738435" expanded="true" signature="2587:2777" ph="select R.*, tbl_restaurant" />
+            <marker date="1524652738435" expanded="true" signature="2587:2803" ph="select R.*, tbl_restaurant" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/FoodDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foodorderingapp/dao/OrderDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/config/HibernateConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foodorderingapp/model/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>FoodOrderingApp:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FoodOrderingApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

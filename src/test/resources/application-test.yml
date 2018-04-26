@@ -1,0 +1,8 @@
+spring:
+  profiles.active: default
+datasource:
+ driver: com.mysql.jdbc.Driver
+ url: jdbc:mysql://localhost:3306/foadb
+ username: root
+ password: root
+ dialect: org.hibernate.dialect.MySQL5Dialect

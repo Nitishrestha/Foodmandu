@@ -1,0 +1,60 @@
+package com.foodorderingapp.commons;
+
+public class WebUrlConstant {
+
+    public interface Order{
+        String ORDER="/order";
+        String TODAY_ORDER_TO_ADMIN="/admin/today";
+        String MONTHLY_ORDER_TO_ADMIN="/admin/month";
+        String TODAY_ORDER_TO_USER="/user/{userId}";
+        String MONTHLY_ORDER_TO_USER="/userList/{userId}";
+        String CONFIRM="/confirm/{orderId}";
+        String WATCHED="/watched/{orderId}";
+    }
+
+    public interface User{
+        String USER="/user";
+        String VERIFY_USER="/verify";
+        String GET_USER_BY_ID="/{userId}";
+    }
+
+    public interface OrderDetail{
+        String ORDER_DETAIL="/orderDetail";
+    }
+
+    public interface Food{
+        String FOOD="/food";
+        String GET_FOOD_BY_ID="/{id}";
+        String DELETE_FOOD_BY_ID="/{id}";
+        String UPDATE_FOOD_BY_ID="/{id}";
+    }
+
+    public interface Restaurant{
+        String RESTAURANT="/restaurant";
+        String GET_FOOD_BY_RESTAURANT="/{id}/foods";
+        String ACTIVATE_RESTAURANT="/{id}/activate";
+        String DEACTIVATE_RESTAURANT="/{id}/deactivate";
+        String GET_PAGINATED_RESTAURANT_TO_ADMIN="admin/paginate/{firstResult}/{maxResult}";
+        String GET_PAGINATED_RESTAURANT_TO_USER="user/{userId}/paginate/{firstResult}/{maxResult}";
+        String GET_PAGINATED_FOOD="/{id}/foods/{firstResult}/{maxResult}";
+        String GET_RESTAURANT_BY_ID="/{id}";
+        String DELETE_RESTAURANT_BY_ID="/{id}";
+        String UPDATE_RESTAURANT_BY_ID="/{id}";
+    }
+
+    public interface Review{
+        String REVIEW="/review";
+        String ADD_REVIEW="/users/{userId}/reviews/{restaurantId}";
+        String DELETE_REVIEW="/users/{userId}/reviews/{restaurantId}";
+        String GET_REVIEW_BY_USERID="/users/{userId}/reviews/{restaurantId}";
+        String GET_ALL_REVIEWS_BY_USERID="/users/{userId}/reviews";
+    }
+
+    public interface Favorite{
+        String FAVORITE="/favorite";
+        String ADD_FAVORITE="/users/favorites";
+        String GET_FAVORITE="/users/{userId}/favorites";
+        String DELETE_FAVORITES="/users/{userId}/favorites/{restaurantId}";
+        String GET_FAVORITES_USER_BY_RESTAURANTID="/users/favorites/{restaurantId}";
+    }
+}

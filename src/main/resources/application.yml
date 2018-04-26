@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+datasource:
+ driver: com.mysql.jdbc.Driver
+ url: jdbc:mysql://localhost:3306/foodorderingappdb
+ username: root
+ password: root
+ dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+
+
+
+
+
