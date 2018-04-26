@@ -20,7 +20,13 @@ import java.util.List;
                                 @ColumnResult(name = "user_id", type = Integer.class),
                                 @ColumnResult(name = "ordered_date", type = Date.class),
                                 @ColumnResult(name = "confirm", type = Boolean.class)
-                        })})
+                        })/*,@ConstructorResult(targetClass = UserListMapperDto.class,
+                        columns = {
+                                @ColumnResult(name = "order_id", type = Integer.class),
+                                @ColumnResult(name = "user_id", type = Integer.class),
+                                @ColumnResult(name = "ordered_date", type = Date.class),
+                                @ColumnResult(name = "confirm", type = Boolean.class)
+                        })*/})
 
 public class User {
 
