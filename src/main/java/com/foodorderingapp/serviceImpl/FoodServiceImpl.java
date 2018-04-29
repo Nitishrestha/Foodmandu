@@ -20,12 +20,10 @@ import java.util.*;
 public class FoodServiceImpl implements FoodService {
 
     private final FoodDAO foodDAO;
-    private final RestaurantDAO restaurantDAO;
 
     @Autowired
-    public FoodServiceImpl(FoodDAO foodDAO, RestaurantDAO restaurantDAO) {
+    public FoodServiceImpl(FoodDAO foodDAO) {
         this.foodDAO = foodDAO;
-        this.restaurantDAO = restaurantDAO;
     }
 
     public boolean deleteFood(int foodId) {
@@ -67,20 +65,27 @@ public class FoodServiceImpl implements FoodService {
 
     public List<Food> getFoodByRestaurantId(int id) {
         List<Food> foodList = foodDAO.getFoodByRestaurantId(id);
-        if (foodList == null || foodList.size() == 0) {
-            throw new DataNotFoundException("cannot find foodList.");
-        } else {
-            return foodList;
-        }
+        return foodList;
     }
 
     public List<Food> addFoodsToRestaurant(List<Food> foodList) {
-        if (foodList == null || foodList.size() == 0) {
-            throw new DataNotFoundException("cannot add foodList.");
+        Set<Food> foods = new HashSet<>(foodList);
+        int restaurantId = foodList.get(0).getRestaurantId();
+        List<Food> foodByRestaurantId = getFoodByRestaurantId(restaurantId);
+        List<Food> newFoodList = new ArrayList<>();
+        if (foodByRestaurantId == null || foodByRestaurantId.size() == 0) {
+            List<Food> foodList1 = new ArrayList<>(foods);
+            return foodDAO.addFoodsToRestaurant(foodList1);
         }
-        int restaurantId = foodList.get(0).getRestaurant().getId();
-        getFoodByRestaurantId(restaurantId);
-        return foodDAO.addFoodsToRestaurant(foodList);
+        for (Food food : foods) {
+            if (!foodByRestaurantId.contains(food)) {
+                newFoodList.add(food);
+            }
+        }
+        if (newFoodList != null && newFoodList.size() > 0) {
+            return foodDAO.addFoodsToRestaurant(newFoodList);
+        }
+        throw new DataNotFoundException("This restaurant already consists new food list!");
     }
 
     @Override

@@ -34,8 +34,8 @@ public class WebUrlConstant {
         String GET_FOOD_BY_RESTAURANT = "/{id}/foods";
         String ACTIVATE_RESTAURANT = "/{id}/activate";
         String DEACTIVATE_RESTAURANT = "/{id}/deactivate";
-        String GET_PAGINATED_RESTAURANT_TO_ADMIN = "admin/paginate/{firstResult}/{maxResult}";
-        String GET_PAGINATED_RESTAURANT_TO_USER = "user/paginate/{firstResult}/{maxResult}";
+        String GET_PAGINATED_RESTAURANT_TO_ADMIN = "admin/paginate";
+        String GET_PAGINATED_RESTAURANT_TO_USER = "user/paginate";
         String GET_PAGINATED_FOOD = "/{id}/foods/{firstResult}/{maxResult}";
         String GET_RESTAURANT_BY_ID = "/{id}";
         String DELETE_RESTAURANT_BY_ID = "/{id}";
@@ -53,7 +53,7 @@ public class WebUrlConstant {
 
     public interface Favorite{
         String FAVORITE="/favorite";
-        String ADD_FAVORITE="/users/{userId}/favorites/{restaurantId}";
+        String ADD_FAVORITE="/users/favorites";
         String GET_FAVORITE="/users/{userId}/favorites";
         String DELETE_FAVORITES="/users/{userId}/favorites/{restaurantId}";
         String GET_FAVORITES_USER_BY_RESTAURANTID="/users/favorites/{restaurantId}";

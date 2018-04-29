@@ -92,15 +92,11 @@ public class Food {
 
         Food food = (Food) o;
 
-        if (id != food.id) return false;
-        if (Double.compare(food.price, price) != 0) return false;
-        if (restaurantId != food.restaurantId) return false;
-        if (!name.equals(food.name)) return false;
-        return restaurant.equals(food.restaurant);
+        return name.equals(food.name);
     }
 
     @Override
     public int hashCode() {
-        return id;
+        return name.hashCode();
     }
 }

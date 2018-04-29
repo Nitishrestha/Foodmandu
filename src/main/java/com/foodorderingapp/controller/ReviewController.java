@@ -1,4 +1,3 @@
-/*
 package com.foodorderingapp.controller;
 import com.foodorderingapp.requestdto.ReviewRequestDto;
 import com.foodorderingapp.responsedto.MessageResponseDto;
@@ -56,4 +55,3 @@ public class ReviewController {
         return new ResponseEntity<>(reviewResponseDto, HttpStatus.OK);
     }
 }
-*/

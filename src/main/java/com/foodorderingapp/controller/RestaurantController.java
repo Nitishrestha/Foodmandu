@@ -77,7 +77,7 @@ public class RestaurantController {
     }
 
     @GetMapping(GET_PAGINATED_RESTAURANT_TO_ADMIN)
-    public ResponseEntity<GenericResponse> getPaginatedRestaurantToAdmin(@PathVariable int firstResult, @PathVariable int maxResult) {
+    public ResponseEntity<GenericResponse> getPaginatedRestaurantToAdmin(@RequestParam int firstResult, @RequestParam int maxResult) {
         GenericResponse genericResponse = restaurantService.getPaginatedRestaurantToAdmin(firstResult, maxResult);
         if (genericResponse == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -86,7 +86,7 @@ public class RestaurantController {
     }
 
     @GetMapping(GET_PAGINATED_RESTAURANT_TO_USER)
-    public ResponseEntity<GenericResponse> getPaginatedRestaurantToUser(@PathVariable int firstResult, @PathVariable int maxResult) {
+    public ResponseEntity<GenericResponse> getPaginatedRestaurantToUser(@RequestParam int firstResult, @RequestParam int maxResult) {
         GenericResponse genericResponse = restaurantService.getPaginatedRestaurantToUser(firstResult, maxResult);
         if (genericResponse == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

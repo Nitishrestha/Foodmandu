@@ -9,7 +9,7 @@ public class StorageProperties {
      */
     private String location = "C:\\Users\\User\\Desktop\\IMAGES";
 
-    private String locationFE = "E:\\FOA -frontend(April New)\\foa\\foa\\app\\assets\\images";
+    private String locationFE = "F:\\FOA-final frontend\\FOAFrontend\\app\\assets\\images";
 
     public String getLocationFE() {
         return locationFE;

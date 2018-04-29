@@ -82,8 +82,6 @@ public class FoodDAOImpl implements FoodDAO {
         if (null == restaurant) {
             throw new DataNotFoundException("Restaurant Not found.");
         }
-        System.out.println("food dao called");
-        System.out.println(restaurant);
         return sessionFactory
                 .getCurrentSession()
                 .createQuery(query, Food.class)

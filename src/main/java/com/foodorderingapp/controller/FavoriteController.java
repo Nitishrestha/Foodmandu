@@ -1,5 +1,7 @@
 package com.foodorderingapp.controller;
+
 import com.foodorderingapp.model.Restaurant;
+import com.foodorderingapp.requestdto.FavoriteRequestDto;
 import com.foodorderingapp.responsedto.FavoriteResponseDto;
 import com.foodorderingapp.responsedto.MessageResponseDto;
 import com.foodorderingapp.service.FavoriteService;
@@ -24,26 +26,26 @@ public class FavoriteController {
     }
 
     @PostMapping(ADD_FAVORITE)
-    public ResponseEntity<MessageResponseDto> addFavorite(@PathVariable int userId, @PathVariable int restaurantId){
-        MessageResponseDto messageResponseDto=favoriteService.addFavorite(userId,restaurantId);
+    public ResponseEntity<MessageResponseDto> addFavorite(@RequestBody FavoriteRequestDto favoriteRequestDto) {
+        MessageResponseDto messageResponseDto = favoriteService.addFavorite(favoriteRequestDto.getUserId(), favoriteRequestDto.getRestaurantId());
         return new ResponseEntity<>(messageResponseDto, HttpStatus.OK);
     }
 
     @GetMapping(GET_FAVORITE)
-    public ResponseEntity<List<Restaurant>> getFavoriteRestaurant(@PathVariable int userId){
-        List<Restaurant> restaurant=favoriteService.getFavoriteRestaurant(userId);
+    public ResponseEntity<List<Restaurant>> getFavoriteRestaurant(@PathVariable int userId) {
+        List<Restaurant> restaurant = favoriteService.getFavoriteRestaurant(userId);
         return new ResponseEntity<>(restaurant, HttpStatus.OK);
     }
 
     @DeleteMapping(DELETE_FAVORITES)
-    public ResponseEntity<MessageResponseDto> deleteFavoriteRestaurant(@PathVariable int userId,@PathVariable int restaurantId){
-        MessageResponseDto messageResponseDto=favoriteService.deleteFavorite(userId,restaurantId);
+    public ResponseEntity<MessageResponseDto> deleteFavoriteRestaurant(@PathVariable int userId, @PathVariable int restaurantId) {
+        MessageResponseDto messageResponseDto = favoriteService.deleteFavorite(userId, restaurantId);
         return new ResponseEntity<>(messageResponseDto, HttpStatus.OK);
     }
 
     @GetMapping(GET_FAVORITES_USER_BY_RESTAURANTID)
-    public ResponseEntity<List<FavoriteResponseDto>> getUsersOfFavoratedRestaurant(@PathVariable int restaurantId){
-        List<FavoriteResponseDto> favoriteResponseDtos=favoriteService.getUsersOfFavoratedRestaurant(restaurantId);
+    public ResponseEntity<List<FavoriteResponseDto>> getUsersOfFavoratedRestaurant(@PathVariable int restaurantId) {
+        List<FavoriteResponseDto> favoriteResponseDtos = favoriteService.getUsersOfFavoratedRestaurant(restaurantId);
         return new ResponseEntity<>(favoriteResponseDtos, HttpStatus.OK);
     }
 }
